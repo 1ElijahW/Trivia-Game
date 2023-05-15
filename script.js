@@ -141,28 +141,3 @@ function calculateQuizResults() {
     
 
 
-// Check the value of the score and display the appropriate message
-// if (score === 5) {
-    //   result.textContent = "You scored 5 out of 5";
-    // } else if (score === 4) {
-        //   result.textContent = "You scored 4 out of 5";} else if (score === 3) {
-            //     result.textContent = "You scored 3 out of 5";
-            // } else if (score === 2) {
-                //   result.textContent = "You scored 2 out of 5";
-                // } else if (score === 1) {
-                    //   result.textContent = "You scored 1 out of 5";
-                    // } else if (score === 0) {
-                        //   result.textContent = "You scored 0 out of 5";
-                        // }
-                        
-                        
-                        // function displayResults(correctAnswers, totalQuestions) {
-                            //     const score = Math.round((correctAnswers / totalQuestions) * );
-                            //     const message = `You scored ${score}% (${correctAnswers}/${totalQuestions})`;
-                            //     const resultsElement = document.getElementById('.end');
-                            //     resultsElement.innerHTML = message;
-                            //   }
-                            
-                            //     const scoreMessage = `You scored ${numCorrectAnswers} out of ${questions.length}!`;
-                            //     alert(scoreMessage);
-                            // }
