@@ -3,13 +3,15 @@
 ☐ Screenshot(s): 
 
 Start Screen:
-<img width="1784" alt="Screenshot 2023-05-12 at 9 57 20 PM" src="https://github.com/1ElijahW/Trivia-Game/assets/131682732/11a67070-7797-4ab1-a0d5-6c2584ce6052">
-
+<img width="1784" alt="Screenshot 2023-05-12 at 9 57 20 PM" src="https://github.com/1ElijahW/Trivia-Game-1a/assets/131682732/0bf98a1e-d2e7-493e-aa57-d808ee3ccaf1">
 
 Questions:
-<img width="1777" alt="Screenshot 2023-05-12 at 10 30 21 PM" src="https://github.com/1ElijahW/Trivia-Game/assets/131682732/bf0dca82-e04e-41b2-b570-d3f0c144ac18">
+<img width="1777" alt="Screenshot 2023-05-12 at 10 30 21 PM" src="https://github.com/1ElijahW/Trivia-Game-1a/assets/131682732/666a4abd-729c-4475-b745-5984a5f46231">
 
-End Page: <img width="1790" alt="Screenshot 2023-05-15 at 8 41 08 AM" src="https://github.com/1ElijahW/Trivia-Game/assets/131682732/1e634cc5-dc7b-4ff6-a4bc-a1aa0db1337b">
+
+End Page:<img width="1790" alt="Screenshot 2023-05-15 at 8 41 08 AM" src="https://github.com/1ElijahW/Trivia-Game-1a/assets/131682732/4e2dde53-c5a5-4f4d-951a-d767295d2554">
+
+
 
 
 
