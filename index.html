@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- This landing page should show when the user loads the page they click the 'play button' and get sent to question page-->
+    <div class="container justify-center flex-column start">
+        <div id="game">
+        <h1>TRIVIA</h1>
+        <h2>Ready to test your knowledge on the film "Point Break"?</h2>
+        <a class="btn">Play</a> 
+      </div>
+    </div>
+
+    <!-- This is moving into the Question page. Here we are seeing the question number and score visuals -->
+    <div class="container justify-center flex-column hidden quiz">
+      <div id="game">
+        <div id="hud">
+          <div class="hud-item">
+            <p id="progressText" class="hud-prefix"></p>
+            <p class="hud-main-text"></p>
+          </div>
+          <div class="hud-item">
+            <p class="hud-prefix"></p>
+            <h1 class="hud-main-text" id="score">0</h1>
+          </div>
+        </div>
+
+        <!-- Here is where the question and answer choices are generated -->
+        <div class="question-container">
+          <h3 id="question">How many heists did the crew have to complete?</h3>
+          <div class="choice-container">
+            <div class="choice-prefix"></div>
+            <div class="choice-text" data-number="1" id="a">this is your answer 1</div>
+          </div>
+          <div class="choice-container">
+            <div class="choice-prefix"></div>
+            <div class="choice-text" data-number="2" id="b">this is your answer 2</div>
+          </div>
+          <div class="choice-container">
+            <div class="choice-prefix"></div>
+            <div class="choice-text" data-number="3" id="c">this is your answer 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Qresult">
+        <div class="result"></div>
+</div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
