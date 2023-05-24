@@ -27,4 +27,4 @@ At the end the user will  have the option to hit "Try again".
 
 Once the Try again button is hit, the user will be redirected to the start page.
 
-☐ Next Steps: I would like to add a progress tracker for users to be displayed while they answer questions and a completion animation
+☐ Next Steps: I would like to incorporate a score tracker for users to be displayed while they are playing the trivia. 
