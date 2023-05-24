@@ -74,15 +74,16 @@ p{
 
 
  .start {
-    color: #404040;
+    background-color: #ffffff;
+    color: #000000;
     cursor: pointer;
-    border: .1em #404040 solid;
-    border-radius: 8em;
     align-items: center;
     justify-content: center;
-    padding: 5%;
-    margin: 5%;
-    font-size: 1.3em;
+    border: .1em #ffffff solid;
+    border-radius: 5em;
+    padding: 3%;
+    margin: 15%;
+   font-size: 1.1em;
     } 
 
 #questions img {
@@ -126,19 +127,22 @@ p{
 
 .result {
     font-size:1.5em;
+    color: #ffffff;
 }
 
 .resultQ {
     margin: 20%;
+    color: #ffffff;
 }
 
 .restart {
-    color: #737373; 
+    background-color: #ffffff;
+    color: #000000; 
     cursor: pointer;
     /*-webkit-transition-duration: 0.4s; */
     transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border: .1em #404040 solid;
+    border: .1em #ffffff solid;
     border-radius: 5em;
     padding: 3%;
     margin: 15%;
