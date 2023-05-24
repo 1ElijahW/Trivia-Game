@@ -1,0 +1,272 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+  
+  body {
+    background-image: url("./P1a_assets/Point-Break-2000x1125.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+
+h1 {
+    padding: 0px;
+    margin: 5%;
+    font-family: 'Sigmar', cursive;
+    font-size: 1.7em;
+    color: #F3D158;
+}
+
+h2 {
+    color: #ffffff; 
+    font-size: 2em;  
+    font-family: 'Sigmar', cursive;
+}
+
+h3 {
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Sigmar', cursive;
+}
+
+h4 {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Sigmar', cursive;
+}
+
+p{
+    margin-top: 0;
+}
+
+
+/* .directions img {
+    max-width: 75%;
+    
+} */
+
+/* .questions, .directions {
+    font-family: 'Sigmar', cursive;
+} */
+
+.directions {
+    margin-bottom: 20%;
+}
+
+.start:hover {
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.3px 0.7px rgba(0, 128, 0, 0.2), 
+      0 0.9px 1.7px rgba(0, 128, 0, 0.19), 0 1.8px 3.5px rgba(0, 0, 0, 0.224),
+      0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px #0f7f2b;
+    background-color: #cccccc;
+    color: #404040;
+  }
+  
+
+.q {
+    margin: 20% 0;
+    display: none;
+    font-family: 'Sigmar', cursive;
+}
+
+
+ .start {
+    color: #404040;
+    cursor: pointer;
+    border: .1em #404040 solid;
+    border-radius: 8em;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    margin: 5%;
+    font-size: 1.3em;
+    } 
+
+#questions img {
+   width: 70%;
+
+}
+
+
+.answer {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.option {
+    color: #737373;
+    cursor: pointer;
+    /*-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: .1em #737373 solid;
+    border-radius: 5em;
+    /*  can add rounded edges to the border */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 5%;
+    font-size: .8em;
+}
+
+.option:hover {
+    /*backdrop-filter: blur(20px);*/
+    background: rgba(0,0,0,0.3);
+    box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126), 
+    0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224),
+    0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px #1a53ff;
+    background-color: #404040;
+    color: white;
+    border: black;
+}
+
+.result {
+    font-size:1.5em;
+}
+
+.resultQ {
+    margin: 20%;
+}
+
+.restart {
+    color: #737373; 
+    cursor: pointer;
+    /*-webkit-transition-duration: 0.4s; */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: .1em #404040 solid;
+    border-radius: 5em;
+    padding: 3%;
+    margin: 15%;
+   font-size: 1.1em;
+}
+
+.restart:hover {
+    color: white;
+    /*backdrop-filter: blur(20px);*/
+    background: rgba(0,0,0,0.3);
+    box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126), 
+    0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224),
+    0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px #1a53ff;
+    background-color: #737373;
+    color: white;
+    border: black;
+}
+
+footer {
+    font-size: .8em;
+}
+
+
+ @media only screen and (min-width: 768px){
+    body {
+        margin: 10% 15%  0 15%;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.3em;
+        margin: 10% 0 10% 0;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+    h4 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: .9em;
+    }
+
+    directions img{
+        max-width: 45%;
+    }
+    
+    .directions{
+        margin: 0;
+    }
+
+   .start {
+      margin:5% 30% 5% 30%;
+      padding: 5%;
+   }
+
+    .option {
+        font-size: 1.2em;
+    }
+    #questions img {
+        border:30px;
+        box-shadow: 10px 10px 5px #ccc;
+       width: 65%;
+    }
+     .q img{
+        width: 70%;
+        margin-top: 10%;
+    } 
+
+   .resultQ {
+       margin: 7% 20% 10% 20%;
+   }
+    footer {
+        font-size: 1em;
+    }
+    footer  {
+        width: 9%;
+    }
+} 
+
+@media only screen and (min-width: 1200px){
+    body {
+        margin: 5% 15%;
+    }
+    h1 {
+        text-shadow: 2px 2px 6px #1a53ff;
+        font-size: 9em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin: 4% 15%;
+    }
+    h4 { 
+        font-size: 1.2em;
+    }
+    .start {
+        margin: 5% 35% 10% 35%;
+        font-size: 1.8em;
+        padding: 1%;
+        border: .1em #404040 solid;
+    }
+   
+   .q {
+       margin-top: 7%
+   }
+
+   .q {
+       margin: 5% 10% 5% 10%;
+   }
+   .option {
+       padding-right: 0;
+       padding-left: 0; 
+   }
+   .answer {
+       margin: 0 10%;
+   }
+   .result {
+        font-size: 2em;
+   }
+
+   .restart {
+       margin: 5% 35%;
+   }
+   footer  {
+       width: 10%
+   }
+}
