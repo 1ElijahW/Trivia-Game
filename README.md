@@ -1,22 +1,22 @@
-☐ Title: Trivia
+☐ Title: Point Break Trivia
 
 ☐ Screenshot(s): 
 
-Start Screen: P1a_assets/Screenshot 2023-05-24 at 9.02.21 AM.png
+Start Screen:<img width="1792" alt="Screenshot 2023-05-24 at 9 50 42 AM" src="https://github.com/1ElijahW/Trivia-Game-1a/assets/131682732/53ee767b-3df3-4889-b16b-60848e9bd396">
+
+
+Questions: <img width="1790" alt="Screenshot 2023-05-24 at 9 50 55 AM" src="https://github.com/1ElijahW/Trivia-Game-1a/assets/131682732/9bc944c6-938c-4f50-9274-6bbf550ceb9d">
 
 
 
-Questions: P1a_assets/Screenshot 2023-05-24 at 9.02.43 AM.png
-
-
-End Page: P1a_assets/Screenshot 2023-05-24 at 9.02.04 AM.png
+End Page: <img width="1789" alt="Screenshot 2023-05-24 at 9 51 14 AM" src="https://github.com/1ElijahW/Trivia-Game-1a/assets/131682732/de25513a-e7d1-4676-b6ad-cedb14adfbc1">
 
 
 ☐ Technologies Used: HTML, CSS, Javascript, 
 
 ☐ I decided to do a Trivia on the film "Point Break" because I felt this would be a good starting to get hands on with HTML, CSS, Javascript. 
 
-☐ Getting Started: https://frabjous-conkies-8504f7.netlify.app/index.html
+☐ Getting Started: https://transcendent-fenglisu-150b8f.netlify.app
 
 DIRECTIONS:
 To start this game the user will click on the "Start" button.
