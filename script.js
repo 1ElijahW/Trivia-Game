@@ -35,20 +35,19 @@ function next(evt) {
 }
 
 function updateScore() {
-  // let score = 0;
   score++;
   if (score === 5) {
     result.textContent = '100% Great job!';
   } else if (score === 4) {
-    result.textContent = '80% Watch movie again!';
+    result.textContent = '80% Watch movie again X';
   } else if (score === 3) {
-    result.textContent = '60% Watch movie again!';
+    result.textContent = '60% Watch movie again X';
   } else if (score === 2) {
-    result.textContent = '40% Watch movie again!';
+    result.textContent = '40% Watch movie again X';
   } else if (score === 1) {
-    result.textContent = '20% Watch movie again!';
+    result.textContent = '20% Watch movie again X';
   } else if (score === 0) {
-    result.textContent = '0% Watch movie again!';
+    result.textContent = '0% Watch movie again X';
   }
 }
 
